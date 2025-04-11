@@ -1,0 +1,44 @@
+2025-03-19 10:31:42,940 - INFO - Starting English to Turkish translation script.
+2025-03-19 10:31:42,952 - WARNING - No GPU detected or --use-gpu not specified; using CPU.
+2025-03-19 10:31:42,953 - INFO - Loading dataset...
+2025-03-19 10:31:44,129 - INFO - Dataset loaded successfully with 350000 samples.
+2025-03-19 10:31:44,281 - INFO - Input and target texts prepared with <start> and <end> tokens.
+2025-03-19 10:31:44,281 - INFO - Hyperparameters set: latent_dim=256, epochs=10, batch_size=64
+2025-03-19 10:31:44,281 - INFO - Tokenizing input (English) texts...
+2025-03-19 10:31:51,766 - INFO - Input tokenizer created: vocab_size=17168, maxlen=11
+2025-03-19 10:31:51,766 - INFO - Tokenizing target (Turkish) texts...
+2025-03-19 10:31:58,543 - INFO - Target tokenizer created: vocab_size=93996, maxlen=19
+2025-03-19 10:31:58,543 - INFO - Target tokenizer verified: <start> index=1, <end> index=2
+2025-03-19 10:31:58,692 - INFO - Tokenizers saved successfully.
+2025-03-19 10:31:58,698 - INFO - Maxlen values saved: input_maxlen=11, target_maxlen=19
+2025-03-19 10:32:00,788 - INFO - Sequences padded.
+2025-03-19 10:32:01,089 - INFO - Data split: 280000 training samples, 70000 validation samples.
+2025-03-19 10:32:01,089 - INFO - Decoder input/output sequences prepared.
+2025-03-19 10:32:02,663 - INFO - Model compiled with sparse_categorical_crossentropy loss and accuracy metric.
+2025-03-19 10:32:02,664 - INFO - Starting model training...
+2025-03-19 10:32:02,936 - INFO - Starting Epoch 1/10
+2025-03-19 12:58:53,972 - INFO - Epoch 1/10 completed: loss=1.4292, accuracy=0.8210, val_loss=0.9712, val_accuracy=0.8637, duration=8811.04 seconds
+2025-03-19 12:58:53,981 - INFO - Starting Epoch 2/10
+2025-03-19 15:22:11,910 - INFO - Epoch 2/10 completed: loss=0.7477, accuracy=0.8851, val_loss=0.7069, val_accuracy=0.8955, duration=8597.93 seconds
+2025-03-19 15:22:11,913 - INFO - Starting Epoch 3/10
+2025-03-19 17:50:29,911 - INFO - Epoch 3/10 completed: loss=0.4843, accuracy=0.9121, val_loss=0.6164, val_accuracy=0.9065, duration=8898.00 seconds
+2025-03-19 17:50:29,918 - INFO - Starting Epoch 4/10
+2025-03-19 20:20:11,538 - INFO - Epoch 4/10 completed: loss=0.3312, accuracy=0.9296, val_loss=0.5871, val_accuracy=0.9098, duration=8981.62 seconds
+2025-03-19 20:20:11,542 - INFO - Starting Epoch 5/10
+2025-03-19 22:49:45,414 - INFO - Epoch 5/10 completed: loss=0.2334, accuracy=0.9445, val_loss=0.5785, val_accuracy=0.9116, duration=8973.87 seconds
+2025-03-19 22:49:45,420 - INFO - Starting Epoch 6/10
+2025-03-20 01:13:58,814 - INFO - Epoch 6/10 completed: loss=0.1729, accuracy=0.9563, val_loss=0.5845, val_accuracy=0.9116, duration=8653.39 seconds
+2025-03-20 01:13:58,817 - INFO - Starting Epoch 7/10
+2025-03-20 03:42:51,810 - INFO - Epoch 7/10 completed: loss=0.1367, accuracy=0.9641, val_loss=0.5918, val_accuracy=0.9119, duration=8932.99 seconds
+2025-03-20 03:42:51,814 - INFO - Starting Epoch 8/10
+2025-03-20 06:21:17,171 - INFO - Epoch 8/10 completed: loss=0.1134, accuracy=0.9693, val_loss=0.6013, val_accuracy=0.9118, duration=9505.36 seconds
+2025-03-20 06:21:17,175 - INFO - Starting Epoch 9/10
+2025-03-20 09:02:30,172 - INFO - Epoch 9/10 completed: loss=0.0974, accuracy=0.9731, val_loss=0.6134, val_accuracy=0.9113, duration=9673.00 seconds
+2025-03-20 09:02:30,175 - INFO - Starting Epoch 10/10
+2025-03-20 11:19:36,583 - INFO - Epoch 10/10 completed: loss=0.0852, accuracy=0.9761, val_loss=0.6225, val_accuracy=0.9110, duration=8226.41 seconds
+2025-03-20 11:19:36,588 - INFO - Training completed.
+2025-03-20 11:19:37,003 - INFO - Training history plot saved.
+2025-03-20 11:19:38,589 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-20 11:19:38,676 - WARNING - Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-03-20 11:19:39,077 - INFO - Models saved successfully.
+2025-03-20 11:19:39,077 - INFO - Script execution completed.
