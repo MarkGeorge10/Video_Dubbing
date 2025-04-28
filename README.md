@@ -129,8 +129,8 @@ VocalBridge/
 
 ## Contact
 For questions or contributions, contact:
-- Mark Fahim: [email]
-- Haifa Alnajjar: [email]
-- Tyler Glaze: [email]
+- Mark Fahim: mqf5675@psu.edu
+- Haifa Alnajjar: haa5622@psu.edu
+- Tyler Glaze: tjg5990@psu.edu
 
 Thank you for exploring Vocal Bridge! Let’s bridge the language gap together.
